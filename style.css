@@ -787,6 +787,7 @@ p.date {
         color: white;
         text-transform: uppercase;
         font-weight: 600;
+        FONT-SIZE: 0.8EM;
     }
     p.date>i {}
     .timeline-block h3 {
@@ -1020,6 +1021,9 @@ a.insitute{
     .trainline::after {
         display: none;
     }
+    div.description>h3 {
+        PADDING: 20PX;
+    }
     /* Make sure that all arrows are pointing leftwards */
     .container::before {
         display: none;
@@ -1088,6 +1092,9 @@ a.buttonBlue{
 /* contact form */
 #contactImage{
     width: 100%;
+}
+i{
+    PADDING: 0px 10px;
 }
 .grid10 {
     display: grid;
@@ -1321,7 +1328,7 @@ div.menu>li>a {
         grid-row: 3/4;
     }
 }
-@media screen and (min-width:400px) and (max-width:650px) { 
+@media screen and (min-width:350px) and (max-width:650px) { 
     form {
         width: 100%;
         max-width: 100%;
@@ -1379,10 +1386,15 @@ div.menu>li>a {
         padding-left: 0PX;
     }
     p.date {
-        padding-right: 2em;
         color: white;
         text-transform: uppercase;
         font-weight: 600;
+        display: block;
+        margin: 1EM;
+    }
+    p.company{
+        
+        margin: 1EM;
     }
     p.date>i {}
     .timeline-block h3 {
@@ -1499,4 +1511,14 @@ div.menu>li>a {
         grid-column: 1/3;
         font-size: 0.8em;
     }
+.buttondescription {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto    ;
+}
+button.tabhobby {
+    background-color: #11ffee00;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-top: 0em;
+    width: 60%;
 }
