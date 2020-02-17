@@ -752,6 +752,10 @@ p.date {
     .containerContact {
         grid-column: 1/3;
     }
+   div.description>h4 
+    {
+     margin: -15PX 50PX;   
+    }
     div.container.left, div.container.right {
         max-width: 460px;
         width: 100%;
