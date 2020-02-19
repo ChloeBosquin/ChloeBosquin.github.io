@@ -983,7 +983,7 @@ a.insitute{
     position: absolute;
     width: 25px;
     height: 25px;
-    right: 0px;
+    right: -8px;
     background-color: white;
     border: 4px solid var(--dark-color);
     top: 15px;
