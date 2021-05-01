@@ -1204,7 +1204,7 @@ input.buttonBlue {
 /*footer*/
 
 section.footer {
-    background-color: var(--primary-color);
+    background-color: var(--grey-primary-color);
     MARGIN-TOP: -10px;
     background: linear-gradient(90deg, rgba(56, 147, 148, 1) 0%, rgba(108, 196, 196, 1) 35%, rgba(159, 247, 247, 1) 100%);
 }
