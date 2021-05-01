@@ -741,7 +741,7 @@ p.date {
 }
 
 
-@media screen and (max-width:460px) {
+@media screen and (max-width:630px) {
     .item1 {
         grid-column: 1/7;
     }
@@ -994,7 +994,12 @@ a.insitute{
 /* Place the container to the left */
 
 .left {
-    left: -9.5%;
+    left: -5.8%;
+}
+@media only screen and (min-width: 1200px){
+    .left {
+        left: -9.3%;
+    } 
 }
 
 /* Place the container to the right */
@@ -1414,7 +1419,7 @@ div.menu>li>a {
 } 
 @media only screen and (min-width: 600px) and (max-device-width: 768px) {
     .left {
-        left: -13.5%;
+        left: -12.3%;
     }
     section {
         padding: 1em 3.5em;
@@ -1509,7 +1514,7 @@ div.menu>li>a {
         grid-column: 3/5;
         justify-self: self-start;
         font-size: 0.8em;
-        PADDING-LEFT: 2EM;
+       padding-left: 2EM;
     }
     div.copyright {
         grid-column: 1/3;
