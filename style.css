@@ -996,7 +996,7 @@ a.insitute{
 .left {
     left: -5.8%;
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (max-width: 1200px){
     .left {
         left: -9.3%;
     } 
